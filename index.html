@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sort.css">
+    <title>SORTING_VISUALIZER_NIKHIL_JHA</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="array-inputs">
+                <p style="color:yellow">Select Size :</p>
+                <input id="a_size" type="range" min=10 max=30 step=1 value=15>
+                <p style="color:yellow">Select Speed :</p>
+                <input id="a_speed" type="range" min=1 max=5 step=1 value=3>
+                <button id="a_generate" style="color:yellow">Generate Array</button>
+            </div>
+            <div class="header_right">
+                <p class="nav-heading" style="color:rgb(255, 0, 0)">SORTING VISUALIZER </p>
+                <div class="algos">
+                    <button >Bubble </button>
+                    <button >Selection </button>&nbsp; 
+                    <button >Insertion </button>
+                    <button >Merge </button>
+                    <button >Quick </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="flex-container">
+        <div  >
+            <br><br><br><br><br>
+            <h1 id="about" style="font-weight: bold;color: rgb(0, 128, 0);text-align:center">CLICK ON THE ABOVE BUTTONS TO GET STARTED!!</h1>
+            <br>
+            <p id="0" style="text-align: center;color :rgb(255, 0, 0)"></p>
+            <br>
+            <ol style="text-align:center"> 
+                <li id="1" style="color:rgb(30, 0, 255)" ></li><br>
+                <li id="2" style="color:rgb(30, 0, 255)"></li><br>
+                <li id="3" style="color:rgb(30, 0, 255)"></li><br>
+                <li id="4" style="color:rgb(30, 0, 255)"></li><br>
+                <li id="5" style="color:rgb(30, 0, 255)"></li><br>
+            </ol>
+        </div> 
+        <div id="array_container">
+
+        </div>
+        <div>
+            <p id="property"></p>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+    <script src="./scripts/main.js"></script>   
+    <script src="./scripts/visualizations.js"></script>  
+
+    <script src="./scripts/bubble_sort.js"></script>
+    <script src="./scripts/selection_sort.js"></script>
+    <script src="./scripts/insertion_sort.js"></script>
+    <script src="./scripts/merge_sort.js"></script>
+    <script src="./scripts/quick_sort.js"></script>
+    <script src="./scripts/heap_sort.js"></script>
+    <!-- <script src="./algorithm/main.js"></script>
+    <script src="./algorithm/updation.js"></script>
+    <script src="./algorithm/merge.js"></script>
+    <script src="./algorithm//bubble.js"></script> -->
+</body>
+</html>
